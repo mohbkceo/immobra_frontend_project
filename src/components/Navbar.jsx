@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0 flex items-center gap-2">
             <span className="text-2xl font-bold text-primary-800 tracking-wider">
-            <a href="/"><img src='./logo.png' className='w-40' alt="IMMOBRA Logo"/></a>
+            <a href="/"><img src='./logo.png' className='w-40 bg-white rounded-md' alt="IMMOBRA Logo"/></a>
             </span>
           </div>
           

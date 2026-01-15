@@ -4,7 +4,7 @@ import { Menu } from 'lucide-react';
 
 const Hero = () => {
   const images = [
-    './logo.png',
+    './logo.jpeg',
     './image.png',
     'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=800',
     'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=800'
