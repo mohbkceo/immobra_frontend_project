@@ -26,7 +26,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${
+    <nav className={`fixed w-full z-50  transition-all duration-300 ${
       scrolled 
         ? 'bg-white/90 backdrop-blur-md shadow-sm py-3 text-black border-b border-gray-100' 
         : 'bg-transparent py-5 text-white'
@@ -35,11 +35,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0 flex items-center gap-2">
             <span className="text-2xl font-bold text-primary-800 tracking-wider">
-              <img src='./logo.png' className='w-40' alt="IMMOBRA Logo"/>
+            <a href="/"><img src='./logo.png' className='w-40' alt="IMMOBRA Logo"/></a>
             </span>
           </div>
           
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <div className="flex items-baseline space-x-8">
               {navLinks.map((link) => (
                 <a
@@ -61,7 +61,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-primary-700 p-2 hover:bg-gray-50 rounded-lg transition-colors"

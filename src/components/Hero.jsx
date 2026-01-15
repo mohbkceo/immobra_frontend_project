@@ -21,7 +21,7 @@ const Hero = () => {
   }, [images.length]);
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-slate-900">
+    <section id="home" className="relative pt-32 min-h-screen flex items-center justify-center overflow-hidden bg-slate-900">
       
       <div className="absolute inset-0 z-0 bg-slate-900" />
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-orange-500/10 rounded-full blur-[120px]" />

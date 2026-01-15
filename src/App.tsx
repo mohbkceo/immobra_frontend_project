@@ -86,7 +86,8 @@ function App() {
     <Router>
       <div dir='auto' className="font-cairo bg-white">
         <Navbar />
-        <Routes>
+        
+        <Routes >
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
