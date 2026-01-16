@@ -67,7 +67,7 @@ const Navbar = () => {
               className="text-primary-700 p-2 hover:bg-gray-50 rounded-lg transition-colors"
               aria-label="Toggle menu"
             >
-              {isOpen ? <X className="w-7 h-7" /> : <Menu color={scrolled ? '#000000':'#ffffff'} className="w-7 h-7" />}
+              {isOpen ? <X color='#ffA500' className="w-7 h-7" /> : <Menu color="#ffA500" className="w-7 h-7" />}
             </button>
           </div>
         </div>

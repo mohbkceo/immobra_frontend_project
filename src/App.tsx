@@ -11,7 +11,8 @@ import WhyUs from './components/WhyUs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-import { Info, Briefcase, Settings2, GitMerge, ShieldCheck, Mail, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Info, Briefcase, Settings2, GitMerge, ShieldCheck, Mail, ChevronLeft, ChevronRight, Handshake } from 'lucide-react';
+import PartnersPage from './components/PartnersPage';
 
 const ServiceNavigation = () => {
   const links = [
@@ -20,7 +21,8 @@ const ServiceNavigation = () => {
     { path: "/flexibility", label: "Flexibilité", icon: <Settings2 className="w-5 h-5" />, description: "Adaptation à vos besoins" },
     { path: "/methodology", label: "Méthodologie", icon: <GitMerge className="w-5 h-5" />, description: "Processus et rigueur" },
     { path: "/whyus", label: "Pourquoi nous", icon: <ShieldCheck className="w-5 h-5" />, description: "Engagement et confiance" },
-    { path: "/contact", label: "Contact", icon: <Mail className="w-5 h-5" />, description: "Discutons de votre projet" }
+    { path: "/partner", label: "Nos offres", icon: <Handshake  className="w-5 h-5" />, description: "Discutons de votre projet" },
+    { path: "/contact", label: "Contact", icon: <Mail className="w-5 h-5" />, description: "Discutons de votre projet" },
   ];
 
   return (
@@ -95,6 +97,7 @@ function App() {
           <Route path="/methodology" element={<Methodology />} />
           <Route path="/whyus" element={<WhyUs />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path='/partner' element={<PartnersPage />} />
         </Routes>
         <Footer />
       </div>

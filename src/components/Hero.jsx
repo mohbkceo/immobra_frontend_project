@@ -68,7 +68,7 @@ const Hero = () => {
             <a className='h-full w-full' href="#servicenavigation">Apprendre encore plus</a>
           </button>
           <button className="bg-white/20 text-white font-bold px-8 py-3 rounded-lg transition-all shadow-lg ">
-            <a className='h-full flex justify-center items-center gap-2 w-full' href='/contact'><Contact /> Contactez-nous </a>
+            <a className='h-full flex justify-center items-center gap-2 w-full' href='/partner'><Contact /> Appels d’offres </a>
           </button>
         </div>
       </div>
