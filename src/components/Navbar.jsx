@@ -35,11 +35,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0 flex items-center gap-2">
             <span className="text-2xl font-bold text-primary-800 tracking-wider">
-            <a href="/"><img src='./logo.png' className='w-40 bg-white rounded-md' alt="IMMOBRA Logo"/></a>
+            <a href="/"><img src='./logo.png' className='w-40 ' alt="IMMOBRA Logo"/></a>
             </span>
           </div>
           
-          <div className="hidden lg:block">
+          <div className="hidden">
             <div className="flex items-baseline space-x-8">
               {navLinks.map((link) => (
                 <a
@@ -61,7 +61,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="lg:hidden">
+          <div className="">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-primary-700 p-2 hover:bg-gray-50 rounded-lg transition-colors"
@@ -74,7 +74,7 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="lg:hidden bg-white border-t border-gray-100 shadow-lg">
+        <div className=" bg-white border-t border-gray-100 shadow-lg">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navLinks.map((link) => (
               <a

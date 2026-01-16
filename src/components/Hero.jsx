@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { GOOGLE_FORM_URL } from '../constants';
-import { Menu } from 'lucide-react';
+import { Contact, Menu } from 'lucide-react';
 
 const Hero = () => {
   const images = [
@@ -65,10 +65,10 @@ const Hero = () => {
         
         <div className="flex flex-col mx-2 justify-center gap-4">
           <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-lg transition-all shadow-lg shadow-orange-500/20">
-            <a className='h-full w-full' href={GOOGLE_FORM_URL}>Commencer</a>
+            <a className='h-full w-full' href="#servicenavigation">Apprendre encore plus</a>
           </button>
           <button className="bg-white/20 text-white font-bold px-8 py-3 rounded-lg transition-all shadow-lg ">
-            <a className='h-full flex justify-center items-center gap-2 w-full' href='#servicenavigation'><Menu /> Menu </a>
+            <a className='h-full flex justify-center items-center gap-2 w-full' href='/contact'><Contact /> Contactez-nous </a>
           </button>
         </div>
       </div>
