@@ -85,11 +85,9 @@ function HomePage() {
 
 function App() {
   return (
-      <div dir='auto' className="font-cairo bg-white">
-        <Navbar />
+    <Routes >
         
-        <Routes >
-          <Route path="/" element={<HomePage />} />
+          <Route path="/*" element={<HomePage />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/flexibility" element={<Flexibility />} />
@@ -97,9 +95,8 @@ function App() {
           <Route path="/whyus" element={<WhyUs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path='/partner' element={<PartnersPage />} />
-        </Routes>
-        <Footer />
-      </div>
+        
+  </Routes>
   );
 }
 
