@@ -85,7 +85,6 @@ function HomePage() {
 
 function App() {
   return (
-    <Router>
       <div dir='auto' className="font-cairo bg-white">
         <Navbar />
         
@@ -101,7 +100,6 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </Router>
   );
 }
 
