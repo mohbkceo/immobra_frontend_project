@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { GOOGLE_FORM_URL } from '../constants';
 import { Contact, Menu } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const images = [
@@ -68,7 +69,7 @@ const Hero = () => {
             <a className='h-full w-full' href="#servicenavigation">Apprendre encore plus</a>
           </button>
           <button className="bg-white/20 text-white font-bold px-8 py-3 rounded-lg transition-all shadow-lg ">
-            <a className='h-full flex justify-center items-center gap-2 w-full' href='/partner'><Contact /> Appels d’offres </a>
+            <Link to={'/partner'} className='h-full flex justify-center items-center gap-2 w-full' ><Contact /> Appels d’offres </Link>
           </button>
         </div>
       </div>

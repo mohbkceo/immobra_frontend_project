@@ -77,7 +77,7 @@ const ServiceNavigation = () => {
 function HomePage() {
   return (
     <>
-      <Hero />
+     <Hero />
      <ServiceNavigation />
     </>
   );
