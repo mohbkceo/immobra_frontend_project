@@ -15,45 +15,27 @@ import {
 export const SERVICES_DATA = [
   {
     id: 1,
-    title: "Gestion et étude de projets de construction",
-    description: "Nous prenons en charge l'étude et la planification des projets, avec une vision globale tenant compte des aspects techniques, financiers et organisationnels.",
-    icon: <Building2 className="w-10 h-10 text-secondary" />
-  },
-  {
-    id: 2,
-    title: "Préparation et suivi des dossiers d'appels d'offres",
-    description: "Préparation des dossiers administratifs et techniques, accompagnement de la phase d'évaluation, et suivi jusqu'à l'attribution du projet.",
+    title: "Préparation des appels d’offres",
+    description: "Nous préparons vos dossiers de manière complète et conforme aux exigences des marchés.",
     icon: <FileText className="w-10 h-10 text-secondary" />
   },
   {
+    id: 2,
+    title: "Gestion et suivi des projets",
+    description: "Chaque étape de votre projet est suivie et coordonnée pour garantir réussite et qualité.",
+    icon: <Building2 className="w-10 h-10 text-secondary" />
+  },
+  {
     id: 3,
-    title: "Planification temporelle et financière",
-    description: "Élaboration des plans d'exécution (Planning), gestion des ressources, et suivi de l'avancement des travaux.",
+    title: "Coordination des travaux",
+    description: "Nous organisons les équipes et les ressources pour un déroulement optimal des travaux.",
     icon: <CalendarClock className="w-10 h-10 text-secondary" />
   },
   {
     id: 4,
-    title: "Suivi technique et administratif",
-    description: "Suivi sur site et technique des travaux, et accompagnement administratif pour garantir la conformité du projet aux engagements contractuels.",
+    title: "Livraison finale",
+    description: "Votre projet est livré clé en main, dans les délais et selon vos attentes.",
     icon: <ShieldCheck className="w-10 h-10 text-secondary" />
-  },
-  {
-    id: 5,
-    title: "Représentation du maître d'ouvrage",
-    description: "Agir comme interface entre tous les intervenants, et assurer la coordination générale et la prise de décisions techniques et organisationnelles.",
-    icon: <UserRoundCheck className="w-10 h-10 text-secondary" />
-  },
-  {
-    id: 6,
-    title: "Études (Architecturales et génie civil...etc)",
-    description: "Fournir des études architecturales et techniques selon les exigences du projet et les réglementations en vigueur.",
-    icon: <Ruler className="w-10 h-10 text-secondary" />
-  },
-  {
-    id: 7,
-    title: "Accompagnement de la réalisation et de l'approvisionnement",
-    description: "Coordination des opérations de réalisation, d'approvisionnement, et suivi des fournisseurs et des entrepreneurs.",
-    icon: <Truck className="w-10 h-10 text-secondary" />
   }
 ];
 

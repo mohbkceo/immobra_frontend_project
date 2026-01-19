@@ -34,12 +34,24 @@ const DownloadButton = () => {
 
 
 const PartnersPage = () => {
-  const requirements = [
-    { text: "Entreprise légalement enregistrée", icon: <RiShieldCheckLine className="text-orange-500" /> },
-    { text: "Activité liée à l'immobilier et à la construction", icon: <RiBuilding2Line className="text-orange-500" /> },
-    { text: "Acceptation de la politique de confidentialité", icon: <RiShieldCheckLine className="text-orange-500" /> },
-    { text: "Posséder un compte sur la plateforme IMMOBRA", icon: <RiUserAddLine className="text-orange-500" /> },
-  ];
+ const requirements = [
+  { 
+    text: "Sélection des meilleurs entrepreneurs qualifiés de la liste IMMOBRA", 
+    icon: <RiUserAddLine className="text-orange-500" /> 
+  },
+  { 
+    text: "Participation directe et soumission des offres sur les projets", 
+    icon: <RiBuilding2Line className="text-orange-500" /> 
+  },
+  { 
+    text: "Suivi rigoureux et coordination de chaque étape par IMMOBRA", 
+    icon: <RiShieldCheckLine className="text-orange-500" /> 
+  },
+  { 
+    text: "Garantie de livraison finale complète et conforme", 
+    icon: <RiShieldCheckLine className="text-orange-500" /> 
+  },
+];
 
   return (
     <div className="min-h-screen bg-slate-50 py-20 px-6">

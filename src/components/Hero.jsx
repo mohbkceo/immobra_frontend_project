@@ -5,10 +5,11 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const images = [
+    'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=800',
     './logo.jpeg',
     './image.png',
-    'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=800',
-    'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=800'
+    './image02.jpeg',
+    './image03.jpeg',
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -60,16 +61,16 @@ const Hero = () => {
         <div className="w-16 h-1 bg-orange-500 mx-auto mb-8 rounded-full"></div>
 
         <p className="text-lg md:text-xl text-slate-300 max-w-xl mx-auto mb-12 leading-relaxed font-light">
-          L'excellence dans l'étude et la gestion de vos projets de construction.
+          Gestion et management de projets immobiliers
         </p>
 
         
         <div className="flex flex-col mx-2 justify-center gap-4">
           <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-lg transition-all shadow-lg shadow-orange-500/20">
-            <a className='h-full w-full' href="#servicenavigation">Apprendre encore plus</a>
+            <Link className='h-full w-full' href="/partner">Présenter votre projet</Link>
           </button>
           <button className="bg-white/20 text-white font-bold px-8 py-3 rounded-lg transition-all shadow-lg ">
-            <Link to={'/partner'} className='h-full flex justify-center items-center gap-2 w-full' ><Contact /> Appels d’offres </Link>
+            <a href={'#servicenavigation'} className='h-full flex justify-center items-center gap-2 w-full' ><Contact /> Nos appels d’offres </a>
           </button>
         </div>
       </div>
