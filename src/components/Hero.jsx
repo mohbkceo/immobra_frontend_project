@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
   const images = [
     'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=800',
-    './logo.jpeg',
     './image.png',
     './image02.jpeg',
     './image03.jpeg',
@@ -61,16 +60,16 @@ const Hero = () => {
         <div className="w-16 h-1 bg-orange-500 mx-auto mb-8 rounded-full"></div>
 
         <p className="text-lg md:text-xl text-slate-300 max-w-xl mx-auto mb-12 leading-relaxed font-light">
-          Gestion et management de projets immobiliers
+          GESTION ET MANAGEMENT DE PROJETS IMMOBILIERS
         </p>
 
         
         <div className="flex flex-col mx-2 justify-center gap-4">
           <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-lg transition-all shadow-lg shadow-orange-500/20">
-            <Link className='h-full w-full' href="/partner">Présenter votre projet</Link>
+            <a className='h-full w-full' href="/partner">Présenter votre projet</a>
           </button>
           <button className="bg-white/20 text-white font-bold px-8 py-3 rounded-lg transition-all shadow-lg ">
-            <a href={'#servicenavigation'} className='h-full flex justify-center items-center gap-2 w-full' ><Contact /> Nos appels d’offres </a>
+            <a href='/partner' className='h-full flex justify-center items-center gap-2 w-full' ><Contact /> Nos appels d’offres </a>
           </button>
         </div>
       </div>
