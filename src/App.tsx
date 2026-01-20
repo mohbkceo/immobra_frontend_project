@@ -38,9 +38,9 @@
           {/* List Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {links.map((link) => (
-              <Link 
+              <a 
                 key={link.path} 
-                to={link.path} 
+                href={link.path} 
                 className="group flex items-center bg-white p-5 rounded-xl border border-slate-200 transition-all duration-300 hover:border-secondary-400 hover:shadow-md hover:shadow-secondary-500/5"
               >
                 {/* Icon Container */}
@@ -60,7 +60,7 @@
 
                 {/* Subtle Arrow */}
                 <ChevronRight className="w-4 h-4 text-slate-300 group-hover:text-secondary-400 transform group-hover:-translate-x-1 transition-all" />
-              </Link>
+              </a>
             ))}
           </div>
 
