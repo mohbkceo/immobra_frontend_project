@@ -48,7 +48,7 @@ export const METHODOLOGY_STEPS = [
 ];
 
 export const ADVANTAGES = [
-  "Expérience dans le domaine des projets de construction",
+  "Expérience dans le domaine de projets de construction",
   "Méthodologie de travail claire et organisée",
   "Flexibilité contractuelle",
   "Réseau de partenaires spécialisés",
