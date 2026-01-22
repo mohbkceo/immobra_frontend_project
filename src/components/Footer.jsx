@@ -43,7 +43,7 @@ const Footer = () => {
           
           <div className="space-y-3">
             <div className="text-2xl font-bold tracking-tight text-white">
-              IMMOBRA <span className="text-orange-400 font-medium text-xl">services</span>
+              IMMOBRA <span className="text-[#D49E21] font-medium text-xl">services</span>
             </div>
             <p className="text-slate-400 max-w-xs mx-auto text-sm leading-relaxed">
               Le partenaire professionnel de confiance pour la gestion et l'étude de projets de construction avec efficacité et professionnalisme.
@@ -59,7 +59,7 @@ const Footer = () => {
             ].map((item) => (
               <a 
                 key={item.id} 
-                href={`#${item.id}`}
+                href={`/${item.id}`}
                 className="text-sm font-medium hover:text-orange-400 transition-colors duration-300"
               >
                 {item.name}

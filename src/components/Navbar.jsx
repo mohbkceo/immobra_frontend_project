@@ -16,13 +16,13 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: 'Accueil', href: '#home' },
-    { name: 'À propos', href: '#about' },
-    { name: 'Nos services', href: '#services' },
-    { name: 'Flexibilité', href: '#flexibility' },
-    { name: 'Méthodologie', href: '#methodology' },
-    { name: 'Pourquoi nous', href: '#whyus' },
-    { name: 'Contactez-nous', href: '#contact' },
+    { name: 'Accueil', href: '/' },
+    { name: 'À propos', href: '/about' },
+    { name: 'Nos services', href: '/services' },
+    { name: 'Flexibilité', href: '/flexibility' },
+    { name: 'Méthodologie', href: '/methodology' },
+    { name: 'Pourquoi nous', href: '/whyus' },
+    { name: 'Contactez-nous', href: '/contact' },
   ];
 
   return (
@@ -67,7 +67,7 @@ const Navbar = () => {
               className="text-primary-700 p-2 hover:bg-gray-50 rounded-lg transition-colors"
               aria-label="Toggle menu"
             >
-              {isOpen ? <X color='#ffA500' className="w-7 h-7" /> : <Menu color="#ffA500" className="w-7 h-7" /> }
+              {isOpen ? <X color='#D49E21' className="w-7 h-7" /> : <Menu color="#D49E21" className="w-7 h-7" /> }
             </button>
           </div>
         </div>

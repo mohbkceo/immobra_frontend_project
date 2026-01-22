@@ -54,13 +54,13 @@ const Hero = () => {
 
         
         <h1 className="text-4xl md:text-7xl font-bold text-white mb-6 leading-tight tracking-tight">
-          IMMOBRA <span className="text-orange-400">Services</span>
+          IMMOBRA <span className="text-[#D49E21]">Services</span>
         </h1>
 
         <div className="w-16 h-1 bg-orange-500 mx-auto mb-8 rounded-full"></div>
 
         <p className="text-lg md:text-xl text-slate-300 max-w-xl mx-auto mb-12 leading-relaxed font-light">
-          GESTION ET MANAGEMENT DE PROJETS IMMOBILIERS
+          Gestion et Management de Projets Immobiliers
         </p>
 
         
