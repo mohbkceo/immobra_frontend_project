@@ -57,7 +57,7 @@ const Hero = () => {
           IMMOBRA <span className="text-[#D49E21]">Services</span>
         </h1>
 
-        <div className="w-16 h-1 bg-orange-500 mx-auto mb-8 rounded-full"></div>
+        <div className="w-16 h-1 bg-[#D49E21] mx-auto mb-8 rounded-full"></div>
 
         <p className="text-lg md:text-xl text-slate-300 max-w-xl mx-auto mb-12 leading-relaxed font-light">
           Gestion et Management de Projets Immobiliers
