@@ -90,7 +90,7 @@ const Navbar = () => {
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full text-center bg-orange-200 text-orange-900 block px-4 py-3 rounded-lg text-base font-semibold hover:bg-orange-300 transition-colors"
+              className="w-full text-center bg-[#D49E21] text-white block px-4 py-3 rounded-lg text-base font-semibold hover:bg-orange-300 transition-colors"
             >
            Demander un service
             </a>
