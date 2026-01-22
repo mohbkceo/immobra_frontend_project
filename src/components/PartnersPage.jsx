@@ -24,7 +24,7 @@ const DownloadButton = () => {
         className="inline-flex items-center gap-3 bg-orange-50 text-zinc-600 font-bold px-6 py-3 rounded-xl border border-orange-200 hover:bg-orange-100 transition-all group"
       >
         <RiFileDownloadLine size={22} className="group-hover:bounce" />
-        <span>Télécharger la brochure (PDF)</span>
+        <span>Télécharger le devis (PDF)</span>
       </a>
       
     </div>
@@ -77,7 +77,7 @@ const PartnersPage = () => {
             </div>
 
             <div className="space-y-6">
-              <h3 className="text-xl font-bold text-slate-800">Conditions d'accès au service :</h3>
+              <h3 className="text-xl font-bold text-slate-800">Les avantages de nos partenaires privilégiés: </h3>
               <div className="grid gap-4">
                 {requirements.map((req, idx) => (
                   <div key={idx} className="flex items-center gap-4 p-4 bg-white rounded-xl shadow-sm border border-slate-100 transition-transform hover:translate-x-1">
@@ -116,7 +116,7 @@ const PartnersPage = () => {
                 href={GOOGLE_FORM_URL} 
                 className="w-full flex items-center justify-center gap-3 bg-white border-2 border-slate-900 text-slate-900 p-5 rounded-2xl font-bold hover:bg-slate-50 transition-all text-lg group"
               >
-                Créer un compte
+                 Devenir partenaire privilégié 
                 <RiUserAddLine size={22} className="group-hover:translate-x-1 transition-transform" />
               </a>
               
