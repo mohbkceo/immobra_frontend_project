@@ -63,5 +63,5 @@ export const FLEXIBILITY_ITEMS = [
   "Contrat pour le suivi seulement"
 ];
 
-export const GOOGLE_FORM_URL = "https://forms.gle/placeholder";
-export const WHATSAPP_URL = "https://wa.me/213796809417"; 
+export const GOOGLE_FORM_URL = "https://forms.gle/5P5paU9CTNdZYo7W6";
+export const WHATSAPP_URL = "https://wa.me/213556990806"; 
