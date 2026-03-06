@@ -13,11 +13,8 @@ import { GOOGLE_FORM_URL, WHATSAPP_URL } from '../constants';
 
 const Contact = () => {
   const socials = [
-    { icon: <RiFacebookCircleFill />, name: "Facebook", href: "#", handle: "Immobra Services", color: "group-hover:text-blue-600" },
-    { icon: <RiInstagramFill />, name: "Instagram", href: "#", handle: "@immobra_services", color: "group-hover:text-pink-500" },
-    { icon: <RiYoutubeFill />, name: "YouTube", href: "#", handle: "Immobra Channel", color: "group-hover:text-red-600" },
-    { icon: <RiTiktokFill />, name: "TikTok", href: "#", handle: "@immobra_official", color: "group-hover:text-slate-900" },
-    { icon: <RiLinkedinBoxFill />, name: "LinkedIn", href: "#", handle: "Immobra Group", color: "group-hover:text-blue-700" },
+    { icon: <RiFacebookCircleFill />, name: "Facebook", href: "https://www.facebook.com/share/18PVh5QL7p/", handle: "Immobra Services", color: "group-hover:text-blue-600" },
+    { icon: <RiYoutubeFill />, name: "YouTube", href: "https://youtube.com/@immobra.services?si=7-rztKSK19hKXU_p", handle: "Immobra Channel", color: "group-hover:text-red-600" },
   ];
 
   return (
