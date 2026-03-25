@@ -64,4 +64,4 @@ export const FLEXIBILITY_ITEMS = [
 ];
 
 export const GOOGLE_FORM_URL = "https://tally.so/r/687VBJ";
-export const WHATSAPP_URL = "https://wa.me/213556990806"; 
+export const ORDER_SERVICE = "https://tally.so/r/jaQ2K4"; 

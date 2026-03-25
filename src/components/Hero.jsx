@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { GOOGLE_FORM_URL, WHATSAPP_URL } from '../constants';
-import { Contact, Menu } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { ORDER_SERVICE } from '../constants';
+import { Contact } from 'lucide-react';
 
 const Hero = () => {
   const images = [
@@ -66,7 +65,7 @@ const Hero = () => {
         
         <div className="flex flex-col mx-2 justify-center gap-4">
           <button className="  bg-[#D49E21] hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-lg transition-all shadow-lg shadow-orange-500/20">
-            <a className='h-full  w-full' href={WHATSAPP_URL}>Présenter votre projet</a>
+            <a className='h-full  w-full' href={ORDER_SERVICE}>Présenter votre projet</a>
           </button>
           <button className="bg-white/20 text-white font-bold px-8 py-3 rounded-lg transition-all shadow-lg ">
             <a href='/partner' className='h-full flex justify-center items-center gap-2 w-full' ><Contact /> Nos appels d’offres </a>

@@ -15,6 +15,7 @@ const Contact = () => {
   const socials = [
     { icon: <RiFacebookCircleFill />, name: "Facebook", href: "https://www.facebook.com/share/18PVh5QL7p/", handle: "Immobra Services", color: "group-hover:text-blue-600" },
     { icon: <RiYoutubeFill />, name: "YouTube", href: "https://youtube.com/@immobra.services?si=7-rztKSK19hKXU_p", handle: "Immobra Channel", color: "group-hover:text-red-600" },
+    { icon: <RiTiktokFill />, name: "YouTube", href: "https://tiktok.com/@immobra.services", handle: "Immobra Account", color: "group-hover:text-black" },
   ];
 
   return (
