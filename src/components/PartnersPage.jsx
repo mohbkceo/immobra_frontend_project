@@ -7,7 +7,7 @@ import {
   RiLockPasswordLine,
   RiArrowRightLine
 } from 'react-icons/ri';
-import { GOOGLE_FORM_URL, WHATSAPP_URL } from '../constants';
+import { GOOGLE_FORM_URL, ORDER_SERVICE } from '../constants';
 
 
 import { RiFileDownloadLine } from 'react-icons/ri';

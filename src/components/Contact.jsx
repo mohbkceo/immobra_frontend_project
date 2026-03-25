@@ -9,7 +9,7 @@ import {
   RiFileEditLine,
   RiArrowRightUpLine
 } from 'react-icons/ri';
-import { GOOGLE_FORM_URL, WHATSAPP_URL } from '../constants';
+import { GOOGLE_FORM_URL, ORDER_SERVICE } from '../constants';
 
 const Contact = () => {
   const socials = [
@@ -54,7 +54,7 @@ const Contact = () => {
                 </a>
 
                 <a
-                  href={WHATSAPP_URL}
+                  href={ORDER_SERVICE}
                   target="_blank"
                   className="flex items-center justify-between bg-white border border-slate-200 p-6 rounded-2xl group hover:border-green-500 transition-all"
                 >
